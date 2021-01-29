@@ -168,7 +168,7 @@ p{
     .wall{
         background-color: white;
         height: 100vh;
-        background-image: url('bgm.png');
+        background-image: url('bgm-min.png');
         background-position: center;
         background-attachment: fixed !important;
         background-size: 80%;
