@@ -1,0 +1,204 @@
+
+
+@font-face{font-family:"Lato-Thin";src:url("font/Lato-Thin.ttf") format("truetype")}
+@font-face{font-family:"Lato-Light";src:url("font/Lato-Light.ttf") format("truetype")}
+
+
+body{
+    height: 2000px;
+    background-color: #292929;
+    
+}
+
+a:hover{
+    text-decoration: none;
+}
+.wall{
+    background-color: #666b64;
+    height: 100vh;
+    background-image: url('bg5-min.jpg');
+    background-position: top;
+    background-attachment: fixed !important;
+    background-size: cover;
+}
+
+h2{
+    font-family: 'Lato-Thin';
+    color: white;
+    margin: 20px 0px;
+    font-size: 40pt;
+}
+
+.fixed-top{
+    /* left:auto; */
+    
+}
+
+.navbar-nav > a{
+    /* color: #ffe9e3 !important; */
+    font-family: 'Lato-Light';
+    
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.bg-rosa{
+    /* background-color: #c98f95; */
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #292929;
+}
+
+.conteudo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.border-r{
+    border-right: 1px  #ffe9e3 solid;
+}
+.border-l{
+    border-left: 1px  #ffe9e3 solid;
+}
+.border-r-b{
+    border-right: 1px  #292929 solid;
+}
+.border-l-b{
+    border-left: 1px  #292929 solid;
+}
+.conteudo-claro{
+    background-color: #ffe9e3;
+    padding-top: 1px;
+}
+.center-y{
+    margin: auto 0;
+}
+p{
+    margin-top: none; 
+    margin-bottom: 0rem;
+}
+.texto-r{
+    text-align: right;
+}
+.texto-l{
+    text-align: left;
+}
+
+.social{
+    width: 50px;
+    margin-right: 10px;
+}
+.botoes{
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+	align-items: center;
+}
+
+.container2 { 
+	margin: 0 auto;
+	display: flex; 
+}
+
+.column {
+	flex-direction: column;
+}
+
+/* Flex Item */
+.item {
+	flex: 1;
+ 
+  
+}
+.alinhamento-central {
+	height: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.alinhamento-central .item {
+	flex: 0; 
+}
+
+.icone-wpp {
+    width: 60px;
+    position: fixed;
+    z-index: 9999;
+    left: 95%;
+    top: 90%;
+}
+
+.citacao{
+    font-family: 'Lato-Thin';
+    font-style: italic;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.citacao-nome{ 
+    font-size: 0.7em;
+}
+
+.footer{
+    background-color: #151515;
+    color: #c98f95;
+    padding: 10px;
+}
+  a{
+    color: #ffe9e3;
+}
+.link-aula{
+    color: #151515;
+}
+
+
+
+
+
+
+
+
+
+
+/* === MOBILE === */
+
+
+@media (max-width:575.98px){
+
+    .wall{
+        background-color: white;
+        height: 100vh;
+        background-image: url('bgm.png');
+        background-position: center;
+        background-attachment: fixed !important;
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+
+
+.navbar-nav{
+    text-align: right;
+}
+.texto-r{
+    text-align: left;
+}
+.border-l{
+    border-left: none;
+}
+.border-r-b{
+    border-right: none;
+}
+p{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.p20{
+    padding-top: 20px;
+}
+.icone-wpp {
+    
+    left: 83%;
+}
+
+
+}
