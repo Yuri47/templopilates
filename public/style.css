@@ -166,9 +166,9 @@ p{
 @media (max-width:575.98px){
 
     .wall{
-        background-color: white;
+        background-color: rgb(202, 143, 149);
         height: 100vh;
-        background-image: url('bgm-min.png');
+        background-image: url('bg-min-22.jpg');
         background-position: center;
         background-attachment: fixed !important;
         background-size: 80%;
